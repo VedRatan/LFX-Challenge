@@ -3,4 +3,4 @@ kind: TestStep
 apply:
 - file: valid-configmap.yaml
 assert:
-valid-configmap-assert.yaml
+- valid-configmap-assert.yaml
