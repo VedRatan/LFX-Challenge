@@ -4,4 +4,4 @@ This test tries to mutate the configmap by adding a label **(lfx-mentorship: kyv
 
 ## Expected Behavior
 
-ConfigMap should be assigned a label **(lfx-mentorship: kyverno)** if it is created in a namespace team-* , and it should not be assigned a label **(lfx-mentorship: kyverno)** if created in any other namespace for ex: namepace default is used in this test.
+ConfigMap should be assigned a label **(lfx-mentorship: kyverno)** if it is created in a namespace: team-* , and it should not be assigned a label **(lfx-mentorship: kyverno)** if created in any other namespace for ex: namepace: default is used in this test.
