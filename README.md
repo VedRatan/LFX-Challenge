@@ -1,6 +1,6 @@
 ## Description
 
-This test tries to mutate the configmap by adding a label **(lfx-mentorship: kyverno)** to it if the configmap is created in a namespace team-*.
+This test tries to mutate the configmap by adding a label **(lfx-mentorship: kyverno)** to it if the configmap is created in a namespace team-*. For the test to run first of all create a namespace named "team-example".
 
 ## Expected Behavior
 
